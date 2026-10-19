@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover useful shopping picks across mobile accessories, fashion, footwear, watches and beauty." />
+  <title>Deva Smart Shopping | Find Your Next Pick</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-strip">Smart finds • Helpful comparisons • Shop with confidence</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Deva Smart Shopping home">
+      <span class="brand-mark">D</span>
+      <span><strong>Deva</strong><small>SMART SHOPPING</small></span>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <span aria-hidden="true">⌕</span>
+      <input id="searchInput" type="search" placeholder="Search products, e.g. power bank..." aria-label="Search products" />
+      <button type="submit">Search</button>
+    </form>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle category menu" aria-expanded="false">☰</button>
+  </header>
+
+  <nav class="category-nav" id="categoryNav" aria-label="Product categories">
+    <button class="category-link active" data-category="All">All Products</button>
+    <button class="category-link" data-category="Mobile Accessories">Mobile Accessories</button>
+    <button class="category-link" data-category="Power Banks">Power Banks</button>
+    <button class="category-link" data-category="Women's Fashion">Women's Fashion</button>
+    <button class="category-link" data-category="Men's Wear">Men's Wear</button>
+    <button class="category-link" data-category="Shoes">Shoes</button>
+    <button class="category-link" data-category="Watches">Watches</button>
+    <button class="category-link" data-category="Beauty">Beauty</button>
+    <button class="category-link" data-category="Grooming">Grooming</button>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR EVERYDAY SHOPPING GUIDE</span>
+        <h1>Good finds.<br /><em>Smarter choices.</em></h1>
+        <p>Explore useful products, compare key features, and visit trusted shopping stores from one simple place.</p>
+        <a class="primary-button" href="#products">Explore products <span>↘</span></a>
+        <div class="hero-trust"><span>✓ Easy to explore</span><span>✓ Curated picks</span><span>✓ Shop at your choice</span></div>
+      </div>
+      <div class="hero-art" aria-label="Shopping categories illustration">
+        <div class="art-circle"></div>
+        <div class="floating-card card-charger"><span>⚡</span><b>Tech essentials</b><small>Everyday accessories</small></div>
+        <div class="floating-card card-fashion"><span>✦</span><b>Style picks</b><small>Fashion & lifestyle</small></div>
+        <div class="phone-art"><div class="phone-screen"><div class="phone-speaker"></div><div class="phone-photo">✧</div><div class="phone-line"></div><div class="phone-line short"></div><div class="phone-button">Discover</div></div></div>
+        <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <div class="section-heading"><div><span class="eyebrow">BROWSE BY INTEREST</span><h2>Shop your way</h2></div><p>Choose a category to narrow down the list.</p></div>
+      <div class="category-tiles">
+        <button class="tile tile-tech" data-category="Mobile Accessories"><span class="tile-icon">⌁</span><b>Mobile accessories</b><small>Chargers, cables & covers</small></button>
+        <button class="tile tile-power" data-category="Power Banks"><span class="tile-icon">▰</span><b>Power banks</b><small>Power for the go</small></button>
+        <button class="tile tile-women" data-category="Women's Fashion"><span class="tile-icon">✿</span><b>Women's fashion</b><small>Kurtis & everyday wear</small></button>
+        <button class="tile tile-men" data-category="Men's Wear"><span class="tile-icon">◈</span><b>Men's wear</b><small>Everyday style</small></button>
+        <button class="tile tile-shoes" data-category="Shoes"><span class="tile-icon">⌑</span><b>Shoes</b><small>Comfort & movement</small></button>
+        <button class="tile tile-beauty" data-category="Beauty"><span class="tile-icon">✧</span><b>Beauty</b><small>Self-care essentials</small></button>
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading products-heading">
+        <div><span class="eyebrow">THE SHOPPING EDIT</span><h2 id="productsTitle">Popular picks to explore</h2></div>
+        <label class="sort-control">Sort by
+          <select id="sortSelect"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name: A–Z</option></select>
+        </label>
+      </div>
+      <div class="results-row"><p id="resultsCount">Showing all sample products</p><button id="clearFilters" class="text-button">Clear filters ↺</button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="no-results" id="noResults" hidden><span>⌕</span><h3>No products found</h3><p>Try another search or choose a different category.</p></div>
+      <p class="demo-note">Demo catalogue: sample products and prices are for layout preview only. Replace them with verified products, current prices, and your own affiliate links before publishing.</p>
+    </section>
+
+    <section class="affiliate-info">
+      <div class="info-icon">↗</div><div><h3>How this site works</h3><p>We help you discover products and then visit the retailer to check current details. Some links may be affiliate links, which can earn us a commission at no extra cost to you.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">D</span><span><strong>Deva</strong><small>SMART SHOPPING</small></span></a>
+    <p>Useful finds for everyday life.</p>
+    <div class="footer-links"><a href="#disclosure">Affiliate disclosure</a><a href="#privacy">Privacy</a><a href="mailto:hello@example.com">Contact</a></div>
+    <small class="copyright">© <span id="year"></span> Deva Smart Shopping. Replace demo contact and policy details before launch.</small>
+    <div id="disclosure" class="footer-disclosure">Affiliate disclosure: Some outbound links may be affiliate links. We may earn a commission if you make a qualifying purchase.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
