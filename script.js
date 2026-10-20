@@ -12,7 +12,6 @@ const products = [
   {id:10,name:"Beard & Hair Trimmer",category:"Grooming",price:799,emoji:"✂️",badge:"GROOMING PICK",desc:"Compare runtime, charging time, blades and warranty.",bg:"#eaf2ed",link:""}
   {id:11,name:"Women's Embroidery Anarkali Dress",category:"Women's Fashion",price:689,emoji:"👗",badge:"STYLE PICK",desc:"Check available sizes, fabric details and current price on Amazon.",bg:"#f8e9e5",link:"https://www.amazon.in/Nermosa-Women-Embroidery-Anarkali-Dupatta/dp/B0FT1981L8?crid=TNARD6XTWRJX&dib=eyJ2IjoiMSJ9._sZG-0s606aXQqC8Ow7qRJWz1fxoLBIo2WmNsetgP8BGf7uTmm2w0BSMNVaCzdb6-hxOUP9zp3BhZzpI8cJmxqQ-hCET7ujUM_pfZlgP36jIzGMWKy0n3teTczB80pOP1sre92D16jzFuNi8sYsKphPiGS1W9RY91WoZyGpZEYouhus-8PhW__gEPXvhNfyD2-2xkvyNPox0tMO6yuE-nbq3HSwHRN7Ve_3O3nwR0U2yg_5bxDq2Eqx-AHBYtsxqWMDW3yjeHfti7rUEvNlFzWRlWYZ-B_gnE7Gr36zXN-A.2pmjCYmScin7N0wyLNVN1Aaw5L8dLdnLSjzf9axdyus&dib_tag=se&keywords=kurta+sets+for+woman&qid=1792493148&sprefix=ku%2Caps%2C414&sr=8-3-spons&aref=kHRvQL5D6f&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=devasmartshop-21&linkId=acb733719c667b8efb17eccfa0551f09&ref_=as_li_ss_tl"}
 ];
-
 let activeCategory = "All";
 let searchTerm = "";
 let sortMode = "featured";
