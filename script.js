@@ -1,7 +1,6 @@
-// ==========================================
-// DEVA SMART SHOPPING
-// Affiliate Product Catalogue
-// ==========================================
+// ========================================
+// DEVA SMART SHOPPING - COMPLETE SCRIPT
+// ========================================
 
 const products = [
   {
@@ -11,118 +10,109 @@ const products = [
     price: 499,
     emoji: "🔌",
     badge: "TECH PICK",
-    desc: "Check charging speed, wattage and device compatibility.",
+    desc: "Check wattage, charging standard and device compatibility.",
     bg: "#eaf2ed",
-    image: "",
     link: ""
   },
   {
     id: 2,
-    name: "Mobile Cover",
+    name: "Everyday Mobile Cover",
     category: "Mobile Accessories",
-    price: 199,
+    price: 249,
     emoji: "📱",
     badge: "POPULAR",
-    desc: "Choose a cover that fits your phone model.",
-    bg: "#f2eafa",
-    image: "",
+    desc: "Choose the exact phone model and preferred material.",
+    bg: "#e9eef5",
     link: ""
   },
   {
     id: 3,
-    name: "Charging Cable",
+    name: "USB-C Charging Cable",
     category: "Mobile Accessories",
-    price: 149,
-    emoji: "🔋",
-    badge: "DAILY USE",
-    desc: "Check cable type, length and charging compatibility.",
-    bg: "#eaf2ed",
-    image: "",
+    price: 199,
+    emoji: "〰️",
+    badge: "DAILY ESSENTIAL",
+    desc: "Check connector type, supported power and cable length.",
+    bg: "#f1f0dc",
     link: ""
   },
   {
     id: 4,
-    name: "Power Bank",
-    category: "Electronics",
-    price: 799,
+    name: "Portable Power Bank",
+    category: "Power Banks",
+    price: 999,
     emoji: "🔋",
     badge: "TRAVEL PICK",
-    desc: "Compare capacity, charging speed and portability.",
-    bg: "#e8f1fc",
-    image: "",
+    desc: "Compare capacity, output wattage, ports and warranty.",
+    bg: "#eaf2ed",
     link: ""
   },
   {
     id: 5,
-    name: "Women's Kurti",
+    name: "Cotton Everyday Kurti",
     category: "Women's Fashion",
-    price: 599,
+    price: 699,
     emoji: "👗",
-    badge: "FASHION PICK",
-    desc: "Check fabric, size chart and customer reviews.",
-    bg: "#fcecf2",
-    image: "",
+    badge: "STYLE PICK",
+    desc: "Review fabric, size chart, length and return policy.",
+    bg: "#f8e9e5",
     link: ""
   },
   {
     id: 6,
-    name: "Wireless Earbuds",
-    category: "Electronics",
-    price: 999,
-    emoji: "🎧",
-    badge: "TECH PICK",
-    desc: "Compare battery life, sound quality and comfort.",
-    bg: "#e8f1fc",
-    image: "",
+    name: "Men's Casual T-Shirt",
+    category: "Men's Wear",
+    price: 399,
+    emoji: "👕",
+    badge: "CASUAL STYLE",
+    desc: "Check fabric, fit, size chart and wash instructions.",
+    bg: "#e9eef5",
     link: ""
   },
   {
     id: 7,
-    name: "Laptop Accessories",
-    category: "Electronics",
-    price: 399,
-    emoji: "💻",
-    badge: "WORK ESSENTIAL",
-    desc: "Choose accessories compatible with your laptop.",
-    bg: "#f0ecff",
-    image: "",
+    name: "Everyday Sneakers",
+    category: "Shoes",
+    price: 1199,
+    emoji: "👟",
+    badge: "COMFORT PICK",
+    desc: "Review size guide, sole material and return options.",
+    bg: "#f3e9d9",
     link: ""
   },
   {
     id: 8,
-    name: "Women's Handbag",
-    category: "Women's Fashion",
-    price: 699,
-    emoji: "👜",
-    badge: "STYLE PICK",
-    desc: "Compare design, storage and material.",
-    bg: "#fcecf2",
-    image: "",
+    name: "Classic Wrist Watch",
+    category: "Watches",
+    price: 899,
+    emoji: "⌚",
+    badge: "TIMELESS",
+    desc: "Compare movement, strap, water resistance and warranty.",
+    bg: "#f1f0dc",
     link: ""
   },
   {
     id: 9,
-    name: "Smart Watch",
-    category: "Electronics",
-    price: 1299,
-    emoji: "⌚",
-    badge: "SMART PICK",
-    desc: "Check features, battery life and phone compatibility.",
-    bg: "#e8f1fc",
-    image: "",
+    name: "Daily Skincare Set",
+    category: "Beauty",
+    price: 549,
+    emoji: "🧴",
+    badge: "SELF-CARE",
+    desc: "Check ingredients, skin suitability and product authenticity.",
+    bg: "#eee8f4",
     link: ""
   },
   {
-    id: 10,
-    name: "Beard & Hair Trimmer",
-    category: "Grooming",
-    price: 692,
-    emoji: "✂️",
-    badge: "GROOMING PICK",
-    desc: "Compare runtime, charging time, blades and warranty.",
-    bg: "#eaf2ed",
-    image: "https://m.media-amazon.com/images/I/71Ze4lFS2UL._SL1500_.jpg",
-    link: "https://www.amazon.in/Trimmer-Runtime-Stainless-Settings-VHTH-38/dp/B0CBMTG6D5?crid=16TTUAWYKCCAD&dib=eyJ2IjoiMSJ9.Di5rdGpr732Lcog7_dm6QsKtWJEjwUFgfzTJsskN_bSgB3bJkeK3eLoV5m8Xuea2ZUZt6fxW5mAcFxD9b4zWd3i-X3S3CCKcBk57MOcaiQlA4aLM8lV63UztwCxmZ9cxgXGux9muHWi9kvMc8bKVbTOVqP3RKl59vyI_5QoG8ZbfY0sXMcAH9NPgda4TaHTC6vhvK2J3VCtregnQkgx5_GXtF7uJUTAyt2xINJ_Zic_ndIJ1HqZxAbLRxQshXQaX-9ujJ_wPxi8X2f6nAnD-rtUxEAa0caPDG3bNP8PFBc.J_ArOHfh5GfBtAwsU4ByY65PymGaJFGhxl0L0wgZiHE&dib_tag=se&keywords=Beard+%26+Hair+Trimmer&qid=1792561737&sprefix=beard+%26+hair+trimmer%2Caps%2C626&sr=8-3-spons&aref=HkYtKViAUx&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=devasmartshop-21&linkId=564e6c8a65e2459cd154544771345d0c&ref_=as_li_ss_tl"
+  id: 10,
+  name: "Beard & Hair Trimmer",
+  category: "Grooming",
+  price: 692,
+  emoji: "✂️",
+  badge: "GROOMING PICK",
+  desc: "Compare runtime, charging time, blades and warranty.",
+  bg: "#eaf2ed",
+  image: "https://m.media-amazon.com/images/I/71Ze4lFS2UL._SL1500_.jpg",
+  link: "YOUR_EXISTING_AMAZON_AFFILIATE_LINK"
   },
   {
     id: 11,
@@ -130,250 +120,225 @@ const products = [
     category: "Women's Fashion",
     price: 689,
     emoji: "👗",
-    badge: "FASHION PICK",
-    desc: "Check available sizes, fabric, design and customer reviews.",
-    bg: "#fcecf2",
+    badge: "STYLE PICK",
+    desc: "Check available sizes, fabric details and current price on Amazon.",
+    bg: "#f8e9e5",
+
+    // Dress image
     image: "https://m.media-amazon.com/images/I/81wQ0dt8GnL._SX679_.jpg",
-    link: "https://www.amazon.in/Nermosa-Women-Embroidery-Anarkali-Dupatta/dp/B0FT1981L8?linkCode=ll2&tag=devasmartshop-21"
+
+    // Amazon affiliate link
+    link: "https://www.amazon.in/Nermosa-Women-Embroidery-Anarkali-Dupatta/dp/B0FT1981L8?crid=TNARD6XTWRJX&dib=eyJ2IjoiMSJ9._sZG-0s606aXQqC8Ow7qRJWz1fxoLBIo2WmNsetgP8BGf7uTmm2w0BSMNVaCzdb6-hxOUP9zp3BhZzpI8cJmxqQ-hCET7ujUM_pfZlgP36jIzGMWKy0n3teTczB80pOP1sre92D16jzFuNi8sYsKphPiGS1W9RY91WoZyGpZEYouhus-8PhW__gEPXvhNfyD2-2xkvyNPox0tMO6yuE-nbq3HSwHRN7Ve_3O3nwR0U2yg_5bxDq2Eqx-AHBYtsxqWMDW3yjeHfti7rUEvNlFzWRlWYZ-B_gnE7Gr36zXN-A.2pmjCYmScin7N0wyLNVN1Aaw5L8dLdnLSjzf9axdyus&dib_tag=se&keywords=kurta+sets+for+woman&qid=1792493148&sprefix=ku%2Caps%2C414&sr=8-3-spons&aref=kHRvQL5D6f&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=devasmartshop-21&linkId=acb733719c667b8efb17eccfa0551f09&ref_=as_li_ss_tl"
   }
 ];
 
-// ==========================================
-// DOM ELEMENTS
-// ==========================================
+let activeCategory = "All";
+let searchTerm = "";
+let sortMode = "featured";
 
-const productGrid =
-  document.querySelector("#productGrid") ||
-  document.querySelector(".product-grid") ||
-  document.querySelector("#products");
+// Website elements
+const grid = document.getElementById("productGrid");
+const noResults = document.getElementById("noResults");
+const resultsCount = document.getElementById("resultsCount");
+const productsTitle = document.getElementById("productsTitle");
 
-const searchInput =
-  document.querySelector("#searchInput") ||
-  document.querySelector("#search");
+// Format price in Indian Rupees
+function formatPrice(price) {
+  return new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: 0
+  }).format(price);
+}
 
-const sortSelect =
-  document.querySelector("#sortSelect") ||
-  document.querySelector("#sort");
+// Filter and sort products
+function getVisibleProducts() {
+  let list = products.filter(function (product) {
+    const matchesCategory =
+      activeCategory === "All" ||
+      product.category === activeCategory;
 
-const clearButton =
-  document.querySelector("#clearFilters") ||
-  document.querySelector("#clear-filters");
+    const searchableText =
+      `${product.name} ${product.category} ${product.desc}`.toLowerCase();
 
-let activeCategory = "all";
+    const matchesSearch = searchableText.includes(searchTerm);
 
-// ==========================================
-// PRODUCT RENDERING
-// ==========================================
+    return matchesCategory && matchesSearch;
+  });
 
-function renderProducts(list) {
-  if (!productGrid) {
-    console.error("Product grid element was not found.");
+  if (sortMode === "price-low") {
+    list.sort((a, b) => a.price - b.price);
+  }
+
+  if (sortMode === "price-high") {
+    list.sort((a, b) => b.price - a.price);
+  }
+
+  if (sortMode === "name") {
+    list.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  return list;
+}
+
+// Render products on the website
+function renderProducts() {
+  if (!grid) {
+    console.error('Product grid not found. Check index.html for id="productGrid".');
     return;
   }
 
-  if (list.length === 0) {
-    productGrid.innerHTML = `
-      <div class="empty-state">
-        <h3>No products found</h3>
-        <p>Try another product name or category.</p>
-      </div>
-    `;
-    return;
-  }
+  const list = getVisibleProducts();
 
-  productGrid.innerHTML = list.map(product => {
-    const safeImage = product.image
+  grid.innerHTML = list.map(function (product) {
+    const productImage = product.image
       ? `
         <img
+          class="product-image"
           src="${product.image}"
           alt="${product.name}"
-          class="product-image"
           loading="lazy"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+          style="width:100%;height:220px;object-fit:contain;"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block';"
         >
-        <span
-          class="product-emoji"
-          style="display:none; background:${product.bg}"
-        >${product.emoji}</span>
       `
-      : `
-        <span
-          class="product-emoji"
-          style="background:${product.bg}"
-        >${product.emoji}</span>
-      `;
+      : "";
 
-    const safeLink = product.link || "#";
+    const imageFallbackStyle = product.image
+      ? "display:none;"
+      : "display:inline-block;";
+
+    const buyLink = product.link || "#affiliate-setup";
+
+    const buyAttributes = product.link
+      ? 'target="_blank" rel="sponsored noopener noreferrer"'
+      : 'data-demo-link="true"';
 
     return `
       <article class="product-card">
 
-        <div class="product-image-wrap">
-          ${safeImage}
-          <span class="product-badge">${product.badge}</span>
+        <div
+          class="product-visual"
+          style="background:${product.bg};"
+        >
+
+          <span class="badge">${product.badge}</span>
+
+          ${productImage}
+
+          <span
+            class="emoji"
+            role="img"
+            aria-label="${product.name}"
+            style="${imageFallbackStyle}"
+          >${product.emoji}</span>
+
         </div>
 
-        <div class="product-info">
+        <div class="product-content">
 
-          <p class="product-category">
+          <div class="product-category">
             ${product.category}
-          </p>
+          </div>
 
-          <h3 class="product-name">
-            ${product.name}
-          </h3>
+          <h3>${product.name}</h3>
 
-          <p class="product-description">
+          <p class="product-desc">
             ${product.desc}
           </p>
 
           <div class="product-bottom">
-            <span class="product-price">
-              ₹${Number(product.price).toLocaleString("en-IN")}
+
+            <span class="price">
+              ${formatPrice(product.price)}
             </span>
 
             <a
-              class="product-button"
-              href="${safeLink}"
-              ${product.link ? 'target="_blank" rel="nofollow sponsored noopener"' : 'aria-disabled="true"'}
-              ${product.link ? '' : 'onclick="return false;"'}
-            >
-              View Product ↗
-            </a>
+              class="buy-button"
+              href="${buyLink}"
+              ${buyAttributes}
+            >Buy Now ↗</a>
+
           </div>
 
         </div>
+
       </article>
     `;
   }).join("");
+
+  // Update product count
+  if (resultsCount) {
+    resultsCount.textContent =
+      `${list.length} ${list.length === 1 ? "product" : "products"}`;
+  }
+
+  // Show or hide no-results message
+  if (noResults) {
+    noResults.style.display = list.length === 0 ? "block" : "none";
+  }
+
+  // Update section heading
+  if (productsTitle) {
+    productsTitle.textContent =
+      activeCategory === "All" ? "All Products" : activeCategory;
+  }
 }
 
-// ==========================================
-// SEARCH + CATEGORY FILTER + SORT
-// ==========================================
-
-function applyFilters() {
-  let filteredProducts = [...products];
-
-  // Category filter
-  if (activeCategory !== "all") {
-    filteredProducts = filteredProducts.filter(product =>
-      product.category.toLowerCase() === activeCategory.toLowerCase()
-    );
-  }
-
-  // Search filter
-  const searchTerm = searchInput
-    ? searchInput.value.trim().toLowerCase()
-    : "";
-
-  if (searchTerm) {
-    filteredProducts = filteredProducts.filter(product =>
-      product.name.toLowerCase().includes(searchTerm) ||
-      product.category.toLowerCase().includes(searchTerm) ||
-      product.desc.toLowerCase().includes(searchTerm)
-    );
-  }
-
-  // Sorting
-  const sortValue = sortSelect ? sortSelect.value : "featured";
-
-  if (sortValue === "price-low" || sortValue === "low-to-high") {
-    filteredProducts.sort((a, b) => a.price - b.price);
-  } else if (
-    sortValue === "price-high" ||
-    sortValue === "high-to-low"
-  ) {
-    filteredProducts.sort((a, b) => b.price - a.price);
-  } else if (sortValue === "name") {
-    filteredProducts.sort((a, b) => a.name.localeCompare(b.name));
-  }
-
-  renderProducts(filteredProducts);
-}
-
-// ==========================================
-// SEARCH EVENT
-// ==========================================
+// Search input
+const searchInput =
+  document.getElementById("searchInput") ||
+  document.querySelector('input[type="search"]') ||
+  document.querySelector('input[placeholder*="Search" i]');
 
 if (searchInput) {
-  searchInput.addEventListener("input", applyFilters);
+  searchInput.addEventListener("input", function () {
+    searchTerm = this.value.trim().toLowerCase();
+    renderProducts();
+  });
 }
 
-// ==========================================
-// SORT EVENT
-// ==========================================
+// Category buttons
+document.querySelectorAll("[data-category]").forEach(function (button) {
+  button.addEventListener("click", function () {
+    activeCategory = this.dataset.category || "All";
 
-if (sortSelect) {
-  sortSelect.addEventListener("change", applyFilters);
-}
-
-// ==========================================
-// CATEGORY BUTTONS
-// ==========================================
-
-document.querySelectorAll("[data-category]").forEach(button => {
-  button.addEventListener("click", () => {
-    activeCategory = button.dataset.category || "all";
-
-    document.querySelectorAll("[data-category]").forEach(item => {
+    document.querySelectorAll("[data-category]").forEach(function (item) {
       item.classList.remove("active");
+      item.setAttribute("aria-pressed", "false");
     });
 
-    button.classList.add("active");
-    applyFilters();
+    this.classList.add("active");
+    this.setAttribute("aria-pressed", "true");
+
+    renderProducts();
   });
 });
 
-// ==========================================
-// CLEAR FILTERS
-// ==========================================
+// Sorting dropdown
+const sortSelect =
+  document.getElementById("sortSelect") ||
+  document.getElementById("sortBy") ||
+  document.querySelector('select[name="sort"]');
 
-if (clearButton) {
-  clearButton.addEventListener("click", () => {
-    activeCategory = "all";
-
-    if (searchInput) {
-      searchInput.value = "";
-    }
-
-    if (sortSelect) {
-      sortSelect.value = "featured";
-    }
-
-    document.querySelectorAll("[data-category]").forEach(button => {
-      button.classList.remove("active");
-
-      if (button.dataset.category === "all") {
-        button.classList.add("active");
-      }
-    });
-
-    renderProducts(products);
+if (sortSelect) {
+  sortSelect.addEventListener("change", function () {
+    sortMode = this.value;
+    renderProducts();
   });
 }
 
-// ==========================================
-// MOBILE MENU
-// ==========================================
+// Handle demo product links
+document.addEventListener("click", function (event) {
+  const demoLink = event.target.closest('[data-demo-link="true"]');
 
-const menuToggle =
-  document.querySelector("#menuToggle") ||
-  document.querySelector(".menu-toggle");
+  if (demoLink) {
+    event.preventDefault();
+    alert(
+      "This is a demo product. The Amazon affiliate link has not been added yet."
+    );
+  }
+});
 
-const navMenu =
-  document.querySelector("#navMenu") ||
-  document.querySelector(".nav-menu");
-
-if (menuToggle && navMenu) {
-  menuToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-    menuToggle.classList.toggle("active");
-  });
-}
-
-// ==========================================
-// INITIAL DISPLAY
-// ==========================================
-
-renderProducts(products);
+// Initial display
+renderProducts();
